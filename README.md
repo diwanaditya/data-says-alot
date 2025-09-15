@@ -1,11 +1,5 @@
 # data-says-lot
-
-[![GitHub Repo](https://img.shields.io/badge/github-diwanaditya/data-says-alot-blue)](https://github.com/diwanaditya/data-says-alot)  
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)  
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)  
-
-
-## 🔹 Project Overview
+## Introduction
 
 `data-says-lot` is a **compact forensic triage toolkit** designed for analyzing files, detecting anomalies, and generating professional reports. It works with **images, videos, and PDFs**, performing **metadata extraction, static heuristics, ML-based steganography detection**, and **optional sandboxed dynamic analysis**.
 
@@ -19,7 +13,7 @@
 
 ---
 
-## 🔹 Supported File Types
+## Supported File Types
 
 | Type    | Extensions           | Features |
 |---------|--------------------|----------|
@@ -30,7 +24,7 @@
 
 ---
 
-## 🔹 How It Works
+## How It Works
 
 1. **Ingest:** Scans files/folders, classifies by type  
 2. **Metadata Extraction:** Extracts EXIF, PDF properties, video info  
@@ -71,7 +65,7 @@ sudo apt install ffmpeg firejail
 
 ---
 
-## 🔹 Usage
+## Usage
 
 ### Analyze folder & generate PDF + JSON
 
@@ -105,7 +99,7 @@ python3 data_says_lot.py -i /path/to/files --benchmark
 
 ---
 
-## 🔹 CLI Options
+## CLI Options
 
 | Option        | Description                          |
 | ------------- | ------------------------------------ |
@@ -119,7 +113,7 @@ python3 data_says_lot.py -i /path/to/files --benchmark
 
 ---
 
-## 🔹 Output
+## Output
 
 * **PDF Report:** Human-readable report with charts, thumbnails, and per-file analysis
 * **JSON Report:** Machine-readable per-file analysis
@@ -128,7 +122,7 @@ python3 data_says_lot.py -i /path/to/files --benchmark
 
 ---
 
-## 🔹 Architecture
+## Architecture
 
 * **Ingest:** File discovery, classification, path normalization
 * **MetadataExtractor:** Per-type metadata extraction (images, PDFs, videos)
@@ -139,7 +133,7 @@ python3 data_says_lot.py -i /path/to/files --benchmark
 
 ---
 
-## 🔹 Security & Privacy
+## Security & Privacy
 
 * Handle generated JSON/PDF carefully; may contain GPS/EXIF or personal info
 * Sandbox helper is optional; use VM/QEMU for full security
@@ -147,7 +141,7 @@ python3 data_says_lot.py -i /path/to/files --benchmark
 
 ---
 
-## 🔹 References
+## References
 
 * [ExifRead Documentation](https://pypi.org/project/ExifRead/)
 * [FFmpeg / FFprobe Documentation](https://ffmpeg.org/)
