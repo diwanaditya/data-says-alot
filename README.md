@@ -147,20 +147,4 @@ python3 data_says_lot.py -i /path/to/files --benchmark
 * [FFmpeg / FFprobe Documentation](https://ffmpeg.org/)
 * [ReportLab User Guide](https://www.reportlab.com/docs/reportlab-userguide.pdf)
 * [scikit-learn IsolationForest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
-* Steganalysis literature
 
----
-
-[![GitHub Repo](https://img.shields.io/badge/github-diwanaditya/data-says-lot-blue)](https://github.com/diwanaditya/data-says-lot)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
-
-```
-
- **This is fully complete**—no missing sections. You can copy-paste this directly as your `README.md`.  
-
----
-
-If you want, I can **also add a “PRO version” README** with **diagrams for architecture, visual workflow, and output example screenshots**—this makes it look *GitHub-repo-level elite*.  
-
-Do you want me to make that visual version too?
-```
