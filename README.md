@@ -1,13 +1,9 @@
 # data-says-lot
 
-[![GitHub Repo](https://img.shields.io/badge/github-diwanaditya/data-says-alot)](https://github.com/diwanaditya/data-says-alot)  
+[![GitHub Repo][github.com/diwanaditya/data-says-alot](https://github.com/diwanaditya/data-says-alot/)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)  
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)  
-[![Last Commit](https://img.shields.io/github/last-commit/diwanaditya/data-says-lot)](https://github.com/diwanaditya/data-says-alot/commits/main)  
-[![Stars](https://img.shields.io/github/stars/diwanaditya/data-says-lot)](https://github.com/diwanaditya/data-says-alot/stargazers)  
-[![Issues](https://img.shields.io/github/issues/diwanaditya/data-says-lot)](https://github.com/diwanaditya/data-says-alot/issues)  
 
----
 
 ## 🔹 Project Overview
 
