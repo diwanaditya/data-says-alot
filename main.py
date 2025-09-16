@@ -421,8 +421,7 @@ class Report:
             self.story.append(Spacer(1, 4 * mm))
         # analyzer
         if info.get('analysis'):
-            lines = '
-'.join([f"{k}: {v}" for k, v in info['analysis'].items()])
+            lines = '\n'.join([f"{k}: {v}" for k, v in info['analysis'].items()])
             self.story.append(Paragraph(lines, self.styles['Normal']))
         self.story.append(PageBreak())
 
