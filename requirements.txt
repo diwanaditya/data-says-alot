@@ -1,0 +1,8 @@
+exifread
+Pillow
+PyPDF2
+reportlab
+numpy
+scikit-learn
+matplotlib
+joblib
