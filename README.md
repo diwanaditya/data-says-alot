@@ -46,7 +46,7 @@
 1. Clone the repo:
 
 ```
-git clone https://github.com/diwanaditya/data-says-lot.git
+git clone [https://github.com/diwanaditya/data-says-lot.git](https://github.com/diwanaditya/data-says-alot.git)
 cd data-says-lot
 
 ```
