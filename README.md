@@ -46,22 +46,16 @@
 1. Clone the repo:
 
 ```
-git clone https://github.com/diwanaditya/data-says-lot.git
+git clone https://github.com/diwanaditya/data-says-alot.git
 
 ```
 2. Go to repo
 ```
-cd data-says-lot
+cd data-says-alot
 
 ```
 
-2. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-3. Optional tools:
+3. Install tools:
 
 ```
 sudo apt install ffmpeg firejail
